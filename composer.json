@@ -1,0 +1,26 @@
+{
+	"name": "bt51/doctrine-cache-serviceprovider",
+	"keywords": ["silex", "extension", "silex-extension", "doctrine", "cache"],
+	"type": "library",
+	"license": "MIT",
+	"description": "Doctrine cache service provider for silex",
+	"authors": [
+		{
+			"name": "Ben Tollakson",
+			"email": "ben.tollakson@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"doctrine/common": "2.3.x"
+	},
+	"require-dev": {
+        "silex/silex": "1.0.x-dev"
+    },
+	"autoload": {
+		"psr-0": {
+			"Bt51\\Silex\\Provider\\DoctrineCacheServiceProvider": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
