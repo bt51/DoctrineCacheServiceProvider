@@ -4,6 +4,7 @@
 	"type": "library",
 	"license": "MIT",
 	"description": "Doctrine cache service provider for silex",
+	"homepage": "https://github.com/bt51/DoctrineCacheServiceProvider",
 	"authors": [
 		{
 			"name": "Ben Tollakson",
