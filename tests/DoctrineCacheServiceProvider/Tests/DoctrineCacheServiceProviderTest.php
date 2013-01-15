@@ -19,7 +19,7 @@ class DoctrineCacheServiceProviderTest extends \PHPUnit_Framework_TestCase
     public function setUp()
     {
         if (!class_exists('Doctrine\\Common\\Cache\\CacheProvider')) {
-            $this->markTestSkipped('Doctrine Common is not installed');
+            $this->markTestSkipped('Doctrine Cache is not installed');
         }
     }
     
